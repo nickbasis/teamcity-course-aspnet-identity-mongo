@@ -35,7 +35,7 @@
 
 			var role = new IdentityRole(name);
 
-			Expect(role.Name, Is.EqualTo("notname2"));
+			Expect(role.Name, Is.EqualTo(name));
 		}
 
 		[Test]
